@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 categories = {1: "True", 2: "False", 3: "Neutral", 4: "Hint",
               5: "Philosophy", 6: "Question", 7: "Hypothesis"}
 X_tasks1 = list(categories.values())
-y_tasks1 = ["We are students, it is True !", "We think this is Philosophy.", "Forward.",
+y_tasks1 = ["We are students, it is True!", "We think this is a Philosophy.", "Forward.",
             "It is absolutlely False.", "Good Question.", "This Hypothesis is False.",
             "Interested Hypothesis."]
 y_tasks2 = ["Students, it is True or False!", "Philosophy have a lot of Questions.",
